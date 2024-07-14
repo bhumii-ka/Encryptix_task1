@@ -20,6 +20,10 @@ body{
     font-family: ubuntu,sans-serif;
     border-radius: 10px;
     box-shadow:0px 0px 7px 7px rgb(115, 115, 115);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #screen{
     grid-column: 1/ -1;
